@@ -1,10 +1,91 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Hamburger webside</title>
+    <title>Burgers Online</title>
     <meta charset="utf-8"/>
 </head>
 <body>
+    <header>
+        <h1>Stinas Burgers Online</h1>
+    </header>
+    <main>
+        <section>
+            <h1>Select burger</h1>
+            This is where you choose your burger
+        </section>
+            <div style="float: left;"><h1>Local</h1>
+                <img src="https://th.bing.com/th/id/OIP.K7n32ni4lc12pS8YMZfz8gHaGj?w=204&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right: 15px; height: 300px; width: 300px; "; >
+                <dd>Non-diary hamburger with meat</dd>
 
+            </div>
+             <div style="float: left;"><h1>Texmex</h1>
+                <img src="https://th.bing.com/th/id/OIP.8M05Gwoh81inkKbptaNBVQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right:15px; height: 300px; width: 300px;"; >
+                <dd>Halloumiburger with mexican influences</dd>
+             </div>
+             <div><h1>Vegan</h1>
+                <img src="https://th.bing.com/th/id/OIP.8Ud7AvxOXcBgm9USxbAFBAHaE0?w=242&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="height: 300px; width: 300px;";>
+                <dd>Vegan burger with chilimayo vegan-style</dd>
+             </div>
+
+        <section>
+            <h2>Customer information:</h2>
+            Orders take up to 10 hours
+            </section>
+        <section id="Contact">
+            <h3>Delivery information:</h3>
+            <form>
+                <p>
+                    <label for="Full name">Full name</label><br>
+                    <input type="text" id="Full name" name="fn" required="required" placeholder="First-and last name">
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="street" name="sn" placeholder="Street name">
+                </p>
+
+                <p>
+                    <label for="Housenumber">House</label><br>
+                    <input type="number" id="Housenumber" name="hn" required="required" placeholder="House number">
+                </p>
+
+
+
+            <p>
+                <label for="payment">Payment Options</label><be>
+                <select id="payment" name="paym">
+                    <option>Credit card</option>
+                    <option>Swish</option>
+                    <option>Klarna</option>
+                    <option>Giftcard</option>
+
+
+                </select>
+            </p>
+
+
+                <legend>Gender</legend>
+                <input type="radio" name="Gender" value="Female">Female<br>
+                <input type="radio" name="Gender" value="Male">Male<br>
+                <input type="radio" name="Gender" value="No gender" checked>Do not wish to provide<br>
+                <br>
+
+
+            </form>
+
+
+        </section>
+        <button type="submit">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPIGKfNX0Udm_jN5gCCsoAQsUc_bSeUunJQ&usqp=CAU" style="height: 15px; width: 15px;";>
+            Place my order!
+        </button>
+    </main>
+    <hr>
+    <footer>
+        Ⓒ2021 Stinas burgers
+    </footer
 </body>
 </html>
