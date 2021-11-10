@@ -1,38 +1,70 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Burgers Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div>
+        <title>Burgers Online </title>
+
+    </div>
     <meta charset="utf-8"/>
+
 </head>
+
+
 <body>
     <header>
-        <h1>Stinas Burgers Online</h1>
+        <div id="header-layout">
+            <div id="header-bild">
+                <img src="https://static.thatsup.co/content/img/place/t/u/tugg-burgers-uppsala-0.jpg";>
+            </div>
+          <div id="header-text"><h1>Stinas Burgers Online</h1></div>
+
+        </div>
+
     </header>
     <main>
-        <section>
-            <h1>Select burger</h1>
-            This is where you choose your burger
-        </section>
-            <div style="float: left;"><h1>Local</h1>
+        <section id="burgers">
+            <div>
+            <h2>Select burger</h2>
+           <p> This is where you choose your burger</p>
+            <div class="wrapper">
+
+            <div class="box a">
+                <h1>Local</h1>
                 <img src="https://th.bing.com/th/id/OIP.K7n32ni4lc12pS8YMZfz8gHaGj?w=204&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right: 15px; height: 300px; width: 300px; "; >
-                <dd>Non-diary hamburger with meat</dd>
-
+                <ul>
+            <span class="ingredients"> <li>lactosefree</li>  <li>glutenfree</li></span>
+                </ul>
             </div>
-             <div style="float: left;"><h1>Texmex</h1>
+
+             <div class="box b" >
+                 <h1>Texmex</h1>
                 <img src="https://th.bing.com/th/id/OIP.8M05Gwoh81inkKbptaNBVQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right:15px; height: 300px; width: 300px;"; >
-                <dd>Halloumiburger with mexican influences</dd>
+                 <ul>
+                     <span class="ingredients"> <li>lactosefree</li> <li>vegan</li></span>
+                 </ul>
+
              </div>
-             <div><h1>Vegan</h1>
+             <div class="box c">
+                 <h1>Vegan</h1>
                 <img src="https://th.bing.com/th/id/OIP.8Ud7AvxOXcBgm9USxbAFBAHaE0?w=242&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="height: 300px; width: 300px;";>
-                <dd>Vegan burger with chilimayo vegan-style</dd>
+                 <ul>
+                     <span class="ingredients"> <li>glutenfree</li>  <li>vegan</li></span>
+                 </ul>
+                 <br>
              </div>
 
-        <section>
-            <h2>Customer information:</h2>
-            Orders take up to 10 hours
-            </section>
-        <section id="Contact">
-            <h3>Delivery information:</h3>
+             </div>
+            </div>
+        </section>
+        <section id="order-information">
+            <div>
+            <h3>Customer information:</h3>
+            <p>Orders take up to 10 hours</p>
+
+
+
+            <h4>Delivery information:</h4>
             <form>
                 <p>
                     <label for="Full name">Full name</label><br>
@@ -55,7 +87,7 @@
 
 
             <p>
-                <label for="payment">Payment Options</label><be>
+                <label for="payment">Payment Options</label><br>
                 <select id="payment" name="paym">
                     <option>Credit card</option>
                     <option>Swish</option>
@@ -75,17 +107,17 @@
 
 
             </form>
-
-
+            </div>
         </section>
         <button type="submit">
+
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPIGKfNX0Udm_jN5gCCsoAQsUc_bSeUunJQ&usqp=CAU" style="height: 15px; width: 15px;";>
             Place my order!
         </button>
     </main>
     <hr>
     <footer>
-        Ⓒ2021 Stinas burgers
-    </footer
+        <p>&copy; Stinas burgers</p>
+    </footer>
 </body>
 </html>
