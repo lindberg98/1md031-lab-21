@@ -1,123 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <div>
-        <title>Burgers Online </title>
-
-    </div>
-    <meta charset="utf-8"/>
-
-</head>
-
-
-<body>
-    <header>
-        <div id="header-layout">
-            <div id="header-bild">
-                <img src="https://static.thatsup.co/content/img/place/t/u/tugg-burgers-uppsala-0.jpg";>
-            </div>
-          <div id="header-text"><h1>Stinas Burgers Online</h1></div>
-
-        </div>
-
-    </header>
-    <main>
-        <section id="burgers">
-            <div>
-            <h2>Select burger</h2>
-           <p> This is where you choose your burger</p>
-            <div class="wrapper">
-
-            <div class="box a">
-                <h1>Local</h1>
-                <img src="https://th.bing.com/th/id/OIP.K7n32ni4lc12pS8YMZfz8gHaGj?w=204&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right: 15px; height: 300px; width: 300px; "; >
-                <ul>
-            <span class="ingredients"> <li>lactosefree</li>  <li>glutenfree</li></span>
-                </ul>
-            </div>
-
-             <div class="box b" >
-                 <h1>Texmex</h1>
-                <img src="https://th.bing.com/th/id/OIP.8M05Gwoh81inkKbptaNBVQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="margin-right:15px; height: 300px; width: 300px;"; >
-                 <ul>
-                     <span class="ingredients"> <li>lactosefree</li> <li>vegan</li></span>
-                 </ul>
-
-             </div>
-             <div class="box c">
-                 <h1>Vegan</h1>
-                <img src="https://th.bing.com/th/id/OIP.8Ud7AvxOXcBgm9USxbAFBAHaE0?w=242&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="height: 300px; width: 300px;";>
-                 <ul>
-                     <span class="ingredients"> <li>glutenfree</li>  <li>vegan</li></span>
-                 </ul>
-                 <br>
-             </div>
-
-             </div>
-            </div>
-        </section>
-        <section id="order-information">
-            <div>
-            <h3>Customer information:</h3>
-            <p>Orders take up to 10 hours</p>
-
-
-
-            <h4>Delivery information:</h4>
-            <form>
-                <p>
-                    <label for="Full name">Full name</label><br>
-                    <input type="text" id="Full name" name="fn" required="required" placeholder="First-and last name">
-                </p>
-                <p>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-                </p>
-                <p>
-                    <label for="street">Street</label><br>
-                    <input type="text" id="street" name="sn" placeholder="Street name">
-                </p>
-
-                <p>
-                    <label for="Housenumber">House</label><br>
-                    <input type="number" id="Housenumber" name="hn" required="required" placeholder="House number">
-                </p>
-
-
-
-            <p>
-                <label for="payment">Payment Options</label><br>
-                <select id="payment" name="paym">
-                    <option>Credit card</option>
-                    <option>Swish</option>
-                    <option>Klarna</option>
-                    <option>Giftcard</option>
-
-
-                </select>
-            </p>
-
-
-                <legend>Gender</legend>
-                <input type="radio" name="Gender" value="Female">Female<br>
-                <input type="radio" name="Gender" value="Male">Male<br>
-                <input type="radio" name="Gender" value="No gender" checked>Do not wish to provide<br>
-                <br>
-
-
-            </form>
-            </div>
-        </section>
-        <button type="submit">
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPIGKfNX0Udm_jN5gCCsoAQsUc_bSeUunJQ&usqp=CAU" style="height: 15px; width: 15px;";>
-            Place my order!
-        </button>
-    </main>
-    <hr>
-    <footer>
-        <p>&copy; Stinas burgers</p>
-    </footer>
-</body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

@@ -1,0 +1,7 @@
+
+[
+  {"name": "Local", "kCal": 600, "lactose": false, "gluten": false, "img": "https://th.bing.com/th/id/OIP.K7n32ni4lc12pS8YMZfz8gHaGj?w=204&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
+  },{"name": "Texmex", "kCal": 700, "lactose": false, "gluten": true, "img": "https://th.bing.com/th/id/OIP.8M05Gwoh81inkKbptaNBVQHaE8?w=254&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
+  }, {"name": "Vegan", "kCal": 800, "lactose": true, "gluten": false, "img": "https://th.bing.com/th/id/OIP.8Ud7AvxOXcBgm9USxbAFBAHaE0?w=242&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
+}
+]
