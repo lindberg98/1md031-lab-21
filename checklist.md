@@ -38,7 +38,7 @@ The style.css file contains:
 
 ## 04 JavaScript and Vue
 
-- [ ] You have a menu.json file which contains at least three different burgers with respective attributes
+- [x] You have a menu.json file which contains at least three different burgers with respective attributes
 
 Your Home.vue file:
 - [x] ... contains a MenuItem constructor (that is not used)
